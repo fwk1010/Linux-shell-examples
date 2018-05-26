@@ -3,7 +3,7 @@ Linux bash shell learnning.
 
 1.hello world  
 Step1:  
-Create a new file and give it permission,like   
+Create a new file and give it permission,like   
 <code>
   touch hi.sh & chmod 744 hi.sh
 </code>  
@@ -14,7 +14,7 @@ Write some codes into hi.sh,like
  echo 'hello,world!'
 </code>  
 Step3:  
-Run your shell script on terminal，like  
+Run your shell script on terminal,like  
 <code>
 ./hi.sh
 </code>  
