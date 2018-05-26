@@ -1,7 +1,7 @@
 # Linux-shell-examples
 Linux bash shell learnning.  
 
-1.hello world  
+## 1.hello world  
 Step1:  
 Create a new file and give it permission,like   
 <code>
