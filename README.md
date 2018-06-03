@@ -20,4 +20,16 @@ Run your shell script on terminal,like
 </code>  
 
 
-Demos see :point_right: [there](./demos/hi.sh)  
+Demos see :point_right: [here](./demos/hi.sh)  
+
+## 2.variable / 变量
+Bash was not declaring variable type explicitly.  
+<code>  
+a="I am a variable"  
+#print variable a  
+echo $a  
+#or  
+echo ${a}
+</code>  
+
+Demos see :point_right: [here](./demos/variable.sh)  
