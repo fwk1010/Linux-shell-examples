@@ -30,7 +30,14 @@ a="I am a variable"
 echo $a  
 #or  
 echo ${a}
-```
-
-
+```  
 Demos see :point_right: [here](./demos/variable.sh)  
+
+## 3.readonly variable / 只读变量  
+```bash 
+readonly a="I am a readonly variable"  
+#try to reset the value,but it was not work and the terminal said line 4: a: readonly variable
+ a='new value'
+```  
+Demos see :point_right: [here](./demos/readonly_variable.sh)  
+
