@@ -42,7 +42,7 @@ readonly a="I am a readonly variable"
 Demos see :point_right: [here](./demos/readonly_variable.sh)  
 
 ## 4.comments / 注释
-Bash has only one way to adds comments that add # to comment single line.  
+Bash has only one way to add comments that adds # to comment single line.  
 If you want to add to multiple lines,please put those codes into a useless function.
 ```bash
 # I am a comment :)
