@@ -81,6 +81,6 @@ echo "The 8 in s6 was index of" ${i}
 ```
 
 Question: expr: syntax error in mac os but linux was ok ,what happen?  
-Answer: mac ox defalut bash version was GNU bash version 3.2.57(1) but linux centos6.9 was GNU bash version 4.1.2(2).
+Answer: mac ox default bash version was GNU bash version 3.2.57(1) but linux centos6.9 was GNU bash version 4.1.2(2).
 
 Demos see :point_right: [here](./demos/string.sh)
