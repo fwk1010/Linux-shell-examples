@@ -24,5 +24,5 @@ echo "get substring from char 1 to char 2:"${s5:0:2}
 # 取索引，用到反字符串
 s6="0123456789"
 # expr: syntax error in mac os but linux was ok ,what happen?
-i=`expr index "$s6" 3` 
+i=`expr index "$s6" 8` 
 echo "The 8 in s6 was index of" ${i}
