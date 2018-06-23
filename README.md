@@ -85,7 +85,7 @@ Answer: mac ox default bash version was GNU bash version 3.2.57(1) but linux cen
 
 Demos see :point_right: [here](./demos/string.sh)  
 
-## 6.Array / 数组  
+## 6.Array / 数组  
 bash支持一维数组（不支持多维数组），并且没有限定数组的大小。数组下标从0开始。它用括号来表示数组，数组元素用"空格"符号分割开。如  
 ```bash
 # define one array
