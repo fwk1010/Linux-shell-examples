@@ -83,4 +83,19 @@ echo "The 8 in s6 was index of" ${i}
 Question: expr: syntax error in mac os but linux was ok ,what happen?  
 Answer: mac ox default bash version was GNU bash version 3.2.57(1) but linux centos6.9 was GNU bash version 4.1.2(2).
 
-Demos see :point_right: [here](./demos/string.sh)
+Demos see :point_right: [here](./demos/string.sh)  
+
+## 6.Array / 数组  
+bash支持一维数组（不支持多维数组），并且没有限定数组的大小。数组下标从0开始。它用括号来表示数组，数组元素用"空格"符号分割开。如  
+```bash
+# define one array
+array1=(1 3 4)
+# get first element
+echo ${array1[0]}
+# get all elements
+echo ${array1[*]}
+# get length
+echo ${#array1[*]}
+```
+
+Demos see :point_right: [here](./demos/array.sh)  
