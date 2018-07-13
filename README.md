@@ -140,6 +140,22 @@ else
 fi
 ```
 Demos see :point_right: [here](./demos/if.sh)  
-- case
+- case  
+**The syntax of the case command is:**
+
+case word in [ [(] pattern [| pattern]…) command-list ;;]… esac  
+```bash
+echo -n "Enter the name of an animal: "
+read ANIMAL
+echo -n "The $ANIMAL has "
+case $ANIMAL in
+  horse | dog | cat) echo -n "four";;
+  man | kangaroo ) echo -n "two";;
+  *) echo -n "an unknown number of";;
+# end of case
+esac
+echo " legs."
+```
+Demos see :point_right: [here](./demos/case.sh)  
 
 - select
