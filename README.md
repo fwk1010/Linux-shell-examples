@@ -158,4 +158,16 @@ echo " legs."
 ```
 Demos see :point_right: [here](./demos/case.sh)  
 
-- select
+- select  
+**The select construct allows the easy generation of menus. It has almost the same syntax as the for command:**  
+select name [in words …]; do commands; done  
+```bash
+echo "What is your favourite programing language?"
+select var in "Java" "PHP" "Python" "Go" "Other"; 
+do
+  break;
+done
+echo "You have selected $var"
+```
+
+Demos see :point_right: [here](./demos/select.sh) 
