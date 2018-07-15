@@ -172,14 +172,18 @@ echo "You have selected $var"
 
 Demos see :point_right: [here](./demos/select.sh)   
 
-## 8.Looping Constructs / 循环结构体  
+## 8.Looping Constructs / 循环结构体  
 - until  
+
 The syntax of the until command is:  
 
 **until test-commands; do consequent-commands; done**  
+
 Execute consequent-commands as long as test-commands has an exit status which is not zero. The return status is the exit status of the last command executed in consequent-commands, or zero if none was executed.  
+
 只要test-commands的退出状态不为零(false)，就执行consequent-commands。  
 与<b>while</b>的条件真值刚好相反。
+
 ```bash
 i=0
 until [[ "$i" -gt 4 ]]    #大于4
